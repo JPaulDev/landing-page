@@ -14,10 +14,16 @@
   height: 65px;
 }
 
+.footer {
+  font-size: 20px;
+  color: white;
+}
+
 body {
-  background-image: url(background.jpg);
+  background-image: url(background2.jpg);
   background-size: cover;
-  background-repeat: no-repeat;
+  background-repeat: space;
+  min-height: 100vh;
 }
 
 .right-links {
@@ -44,12 +50,13 @@ body {
   justify-content: center;
   flex-wrap: wrap;
   min-height: 60vh;
-  margin: 0 80px;
   background-color: rgba(0, 0, 0, 0.733);
   color: white;
   border-radius: 25px;
   border: 1px dashed red;
   margin-bottom: 4rem;
+  width: 75%;
+  align-self: center;
 }
 
 .body-1 .x {
